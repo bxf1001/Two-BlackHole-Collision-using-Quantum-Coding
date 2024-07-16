@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import json
 import h5py
 # Initialize the QiskitRuntimeService
-service = QiskitRuntimeService(channel="ibm_quantum", token="1945156ddca83d1b654ddfa55038621f56dd78625ca3a6fd5c0143ddac7bd4681ec8c28f972750e755fcabc30251d5952f06dd1a15cdcf2aa6ba2fa9407e1cf6")
+service = QiskitRuntimeService(channel="ibm_quantum", token="")
 
 def create_black_hole_collision_circuit(num_qubits, mass_ratio, spin_parameter):
     qr = QuantumRegister(num_qubits, 'q')
